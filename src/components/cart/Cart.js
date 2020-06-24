@@ -19,7 +19,7 @@ class Cart extends Component {
                   <Title title="your cart" />
                   <CartColumns />
                   <CartList value={value} />
-                  <CartTotal value={value} />
+                  <CartTotal value={value} history={this.props.hisory} />
                 </React.Fragment>
               );
             } else {
